@@ -1,0 +1,16 @@
+/home/vb-admin/.rvm/rubies/ruby-2.0.0-p648/bin/ruby -r ./siteconf20151223-17037-1otnifw.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling threads.c
+compiling locker.c
+compiling context.c
+compiling byebug.c
+compiling breakpoint.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20151223-17037-lcstpc/byebug
+installing default byebug libraries
